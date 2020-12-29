@@ -54,8 +54,10 @@ The location to save `policies.json` may vary across distributions.
 ```
 
 * Look for output like
+```
 	[pid 444717] access("/etc/firefox/policies/policies.json", F_OK <unfinished ...>
 	[pid 444717] openat(AT_FDCWD, "/usr/lib/firefox/distribution/policies.json", O_RDONLY <unfinished ...>
+```
 
 * Save the file in one of the specified directores, close Firefox, and re-check `about:policies` again. *Note that it is recommended to always save the file in a directory under `/etc/` (if possible) to avoid that any packaging system overwrites the file.*
 * Create a startup-script containing something like `firefox --kiosk --private-window 'http://url-to-application'`
