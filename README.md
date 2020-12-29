@@ -1,7 +1,7 @@
 # SuperKiosk
-Browser usually have an option for being started in "kiosk" mode. The purpose of this is to allow a web application to run on a public computer without the user being able to exit from the application.
+Browsers usually have an option for being started in "kiosk" mode. The purpose of this is to allow a web application to run on a public computer without the user being able to exit from it.
 
-The default kiosk modes however does not disable all features, and these features **will** sooner or later break your application. SuperKiosk is a guide to disable features known to cause problems.
+The default kiosk modes however does not disable all features, and these features **will sooner or later break your kiosk application**. SuperKiosk is a guide to disable features known to cause problems.
 
 ## Firefox
 The file `firefox/policies.json` contains settings to disable problematic features, and must be put in a special directory for Firefox to find it when it starts.
