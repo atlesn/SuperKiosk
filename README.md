@@ -6,7 +6,7 @@ The default kiosk modes however does not disable all features, and these feature
 ## Firefox
 The file `firefox/policies.json` contains settings to disable problematic features, and must be put in a special directory for Firefox to find it when it starts.
 
-The policy file will disable:
+The policy file will:
 * Disable telemetry (Firefox call-home)
 * Disable Firefox Sync (Firefox Account/FxAccount)
 * Disable Firefox Studies
