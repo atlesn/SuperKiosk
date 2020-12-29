@@ -1,0 +1,48 @@
+{
+        "policies": {
+                "DisableTelemetry": true,
+                "DisableFirefoxAccounts": true,
+                "DisableFormHistory": true,
+                "DisableFirefoxStudies": true,
+                "DisableAppUpdate": true,
+                "AppAutoUpdate": false,
+                "NewTabPage": false,
+                "NetworkPrediction": false,
+                "ExtensionUpdate": false,
+                "DisplayMenuBar": "never",
+                "DisplayBookmarksToolbar": false,
+                "FirefoxHome": {
+                        "Search": false,
+                        "TopSites": false,
+                        "Highlights": false,
+                        "Pocket": false,
+                        "Snippets": false,
+                        "Locked": false
+                },
+                "Preferences": {
+                        "accessibility.force_disabled": {
+                                "Value": 1,
+                                "Status": "locked"
+                        },
+                        "browser.tabs.warnOnClose": {
+                                "Value": false,
+                                "Status": "locked"
+                        },
+                        "browser.gesture.pinch.in": { "Value": "", "Status": "locked" },
+                        "browser.gesture.pinch.in.shift": { "Value": "", "Status": "locked" },
+                        "browser.gesture.pinch.out": { "Value": "", "Status": "locked" },
+                        "browser.gesture.pinch.out.shift": { "Value": "", "Status": "locked" },
+                        "browser.gesture.swipe.down": { "Value": "", "Status": "locked" },
+                        "browser.gesture.swipe.left": { "Value": "", "Status": "locked" },
+                        "browser.gesture.swipe.right": { "Value": "", "Status": "locked" },
+                        "browser.gesture.swipe.up": { "Value": "", "Status": "locked" },
+                        "browser.gesture.tap": { "Value": "", "Status": "locked" },
+                        "browser.gesture.twist.end": { "Value": "", "Status": "locked" },
+                        "browser.gesture.twist.left": { "Value": "", "Status": "locked" },
+                        "browser.gesture.twist.right": { "Value": "", "Status": "locked" },
+                        "signon.rememberSignons": { "Value": false, "Status": "locked" },
+                        "signon.autofillForms": { "Value": false, "Status": "locked" },
+                        "security.insecure_field_warning.contextual.enabled": { "Value": false, "Status": "locked" }
+                }
+        }
+}
