@@ -38,9 +38,9 @@ The location to save `policies.json` may vary across distributions.
 * First, try the default directory:
 
 	$ sudo su -
-	# mkdir -p /etc/firefox/policies/
-	# curl https://raw.githubusercontent.com/atlesn/SuperKiosk/main/firefox/policies.json > /etc/firefox/policies/policies.json
-	# exit
+	&#35; mkdir -p /etc/firefox/policies/
+	&#35; curl https://raw.githubusercontent.com/atlesn/SuperKiosk/main/firefox/policies.json > /etc/firefox/policies/policies.json
+	&#35; exit
 
 * Close all Firefox windows and start it normally
 * Go to the page `about:policies` and verify that the policy file has been read
